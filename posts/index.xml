@@ -7,17 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© Lichia</copyright>
-    <lastBuildDate>Sat, 29 Apr 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://ww11632.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Utilize Sun.py to import &amp; analyse Solar Observation Data</title>
-      <link>https://ww11632.github.io/posts/utilize-sun.py-to-import-analyse-solar-observation-data/</link>
-      <pubDate>Sat, 29 Apr 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://ww11632.github.io/posts/utilize-sun.py-to-import-analyse-solar-observation-data/</guid>
-      <description>Introduction Utilize Sun.py to import &amp;amp; analyse Solar Observation Data
-Link A link to the Code</description>
-    </item>
-    
+    <lastBuildDate>Mon, 03 Apr 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://ww11632.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Apply Hierarchical Risk Parity to the Crypto Asset allocation</title>
       <link>https://ww11632.github.io/posts/assest-allocation/</link>
@@ -49,12 +39,22 @@ Link A link to download PBIX File</description>
     </item>
     
     <item>
-      <title>Polygon Name Service</title>
+      <title>Utilize Sun.py to import &amp; analyse Solar Observation Data</title>
+      <link>https://ww11632.github.io/posts/utilize-sun.py-to-import-analyse-solar-observation-data/</link>
+      <pubDate>Mon, 27 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://ww11632.github.io/posts/utilize-sun.py-to-import-analyse-solar-observation-data/</guid>
+      <description>Introduction Utilize Sun.py to import &amp;amp; analyse Solar Observation Data
+Link A link to the Code</description>
+    </item>
+    
+    <item>
+      <title>Kama Nmae service</title>
       <link>https://ww11632.github.io/posts/polygon_name_service/</link>
       <pubDate>Sun, 29 Jan 2023 00:00:00 +0000</pubDate>
       
       <guid>https://ww11632.github.io/posts/polygon_name_service/</guid>
-      <description>Introduction ENS service on Polygon Network
+      <description>Introduction ENS service on Polygon Mumbai Testnet
 Link A link to the Dapp
 Gitgub A link to the Github Repository</description>
     </item>
