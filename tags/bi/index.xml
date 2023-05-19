@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>BI on Louis Tungs Blog of Data Wrangling 📊 🌿</title>
+    <link>https://ww11632.github.io/tags/bi/</link>
+    <description>Recent content in BI on Louis Tungs Blog of Data Wrangling 📊 🌿</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© Louis Tung</copyright>
+    <lastBuildDate>Fri, 31 Mar 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://ww11632.github.io/tags/bi/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Analytics dashboard for eCommerce store - Google Looker Studio</title>
+      <link>https://ww11632.github.io/posts/google-looker-studio/</link>
+      <pubDate>Fri, 31 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://ww11632.github.io/posts/google-looker-studio/</guid>
+      <description>Introduction Using Google Looker Studio to develop day-to-day Web Analytics and the Spreadsheet where the visualization and manipulations of data were performed for the eCommerce store.
+Link A link to the Dashboard</description>
+    </item>
+    
+    <item>
+      <title>Data Visualization for eCommerce store - Power BI</title>
+      <link>https://ww11632.github.io/posts/power-bi/</link>
+      <pubDate>Fri, 31 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://ww11632.github.io/posts/power-bi/</guid>
+      <description>Introduction Using Power BI to develop day-to-day Web Analytics and the Spreadsheet where the visualization and manipulations of data were performed for eCommerce store
+Link A link to download PBIX File</description>
+    </item>
+    
+  </channel>
+</rss>

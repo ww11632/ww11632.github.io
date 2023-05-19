@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Python on Louis Tungs Blog of Data Wrangling 📊 🌿</title>
+    <link>https://ww11632.github.io/tags/python/</link>
+    <description>Recent content in Python on Louis Tungs Blog of Data Wrangling 📊 🌿</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© Louis Tung</copyright>
+    <lastBuildDate>Mon, 03 Apr 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://ww11632.github.io/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Apply Hierarchical Risk Parity to the Crypto Asset allocation</title>
+      <link>https://ww11632.github.io/posts/assest-allocation/</link>
+      <pubDate>Mon, 03 Apr 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://ww11632.github.io/posts/assest-allocation/</guid>
+      <description>Introduction Originally, when utilizing normal covariance to do asset allocation, the noise of the data will greatly affect the final allocation result, but Prof. Ledoit and Prof. Wolf found a simple method to solve this problem so that the result is more stable and will not be affected by the historical data noise.
+Link A link to the Code</description>
+    </item>
+    
+    <item>
+      <title>Utilize Sun.py to import &amp; analyse Solar Observation Data</title>
+      <link>https://ww11632.github.io/posts/utilize-sun.py-to-import-analyse-solar-observation-data/</link>
+      <pubDate>Mon, 27 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://ww11632.github.io/posts/utilize-sun.py-to-import-analyse-solar-observation-data/</guid>
+      <description>Introduction Utilize Sun.py to import &amp;amp; analyse Solar Observation Data
+Link A link to the Code</description>
+    </item>
+    
+  </channel>
+</rss>
