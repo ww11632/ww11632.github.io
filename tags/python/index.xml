@@ -1,13 +1,25 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Python on Louis Tungs Blog of Data Wrangling 📊 🌿</title>
+    <title>python on Louis Tungs Blog of Data Wrangling 📊 🌿</title>
     <link>https://ww11632.github.io/tags/python/</link>
-    <description>Recent content in Python on Louis Tungs Blog of Data Wrangling 📊 🌿</description>
+    <description>Recent content in python on Louis Tungs Blog of Data Wrangling 📊 🌿</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© Louis Tung</copyright>
-    <lastBuildDate>Mon, 03 Apr 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://ww11632.github.io/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 15 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://ww11632.github.io/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>A model that can forecast the bike-sharing demand and analyze the influencing factors</title>
+      <link>https://ww11632.github.io/posts/a-model-that-can-forecast-the-bike-sharing-demand-and-analyze-the-influencing-factors/</link>
+      <pubDate>Sat, 15 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://ww11632.github.io/posts/a-model-that-can-forecast-the-bike-sharing-demand-and-analyze-the-influencing-factors/</guid>
+      <description>Introduction Preprocess and split the dataset in an appropriate way via Python such that we can evaluate our model properly.
+Explore the data through descriptive statistics and visualization and summarize findings about the data.
+Develop three different models and train them on the training set. Find a proper way to combine the prediction results of these models.
+Compare the models as well as the ensemble results using appropriate performance metrics.</description>
+    </item>
+    
     <item>
       <title>Apply Hierarchical Risk Parity to the Crypto Asset allocation</title>
       <link>https://ww11632.github.io/posts/assest-allocation/</link>
