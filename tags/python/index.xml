@@ -27,8 +27,7 @@ Compare the models as well as the ensemble results using appropriate performance
       
       <guid>https://ww11632.github.io/posts/assest-allocation/</guid>
       <description>Introduction Originally, when utilizing normal covariance to do asset allocation, the noise of the data will greatly affect the final allocation result, but Prof. Ledoit and Prof. Wolf found a simple method to solve this problem so that the result is more stable and will not be affected by the historical data noise.
-Steps
-Download Historical Data from yfinance Set up environemnt Weight asset Backtesting Calculate the Max dropdown Analysis Link A link to the Code</description>
+Steps Download Historical Data from yfinance Set up environemnt Weight asset Backtesting Calculate the Max dropdown Analysis Link A link to the Code</description>
     </item>
     
     <item>
