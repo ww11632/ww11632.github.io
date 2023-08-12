@@ -72,7 +72,7 @@ if (!doNotTrack) {
 		<section class="body">
 			<h2 id="introduction">Introduction</h2>
 <p>The final project of this course focuses on the prediction of choice behavior in a space of choice tasks that extends the space considered by Erev et al. (2023). The participants in Erev et al.’s study did not receive a description of the keys, and had to base their decisions on the feedback provided after each choice. The current space includes similar tasks (but with only two keys), and also considers tasks in which part of the keys are described.</p>
-<figure><img src="https://drive.google.com/file/d/1QtT8nppylbeA7ZdkiCVVV95y6r4doyRG/view?usp=sharing"/><figcaption>
+<figure><img src="https://cvws.icloud-content.com/B/AcnJgnHJXsmk5StOgfZyYCJVRmgeAcTTUp06b_Makto2trTES_0U1D2-/%e6%88%aa%e5%9c%96&#43;2023-08-12&#43;21.01.20.png?o=AkSF00Cc9z-1HzK8MMG8glNvczfJqxJPEexm9TiJYnv_&amp;v=1&amp;x=3&amp;a=CAogirQtgv71fhfytwrt7MF2Yn1d21fXs67LjM3Jc7TSw90SbRD7m_zZnjEY-_jX254xIgEAUgRVRmgeWgQU1D2-aiYek5VcFhLDCcE_UT7FWO2peVcESFt63MVMeY9qE2eVp20jph7lrHImeEZ7I_NDhbmIBhlil5-BHeQxo3_lURriTzGQY7OaGqX9SIob8Po&amp;e=1691872525&amp;fl=&amp;r=925824dd-e861-4e3d-af1c-cc274dbc8edc-1&amp;k=fc661dS3g499s1eWGRlD6w&amp;ckc=com.apple.clouddocs&amp;ckz=com.apple.CloudDocs&amp;p=124&amp;s=KuBT7A3ybmx4ZrBKLIPg1byj7S0&amp;cd=i"/><figcaption>
             <h4>Figure 1 presents the instructions for the participants and the main screens in one of the tasks.</h4>
         </figcaption>
 </figure>
@@ -103,6 +103,48 @@ ABAnotb: The proportion of A choices after a trial in which the participant chos
 <p>Arate: 1 if A was selected, 0 otherwise</p>
 <p>VA: the payoff from A</p>
 <p>VB: the payoff from B</p>
+<h2 id="basic-ideas-behind-my-predictions">Basic Ideas behind my predictions</h2>
+<p>This task involves decision making under uncertainty. Participants are given a verbal hint, and they also learn from the feedback provided a&lt;er each round. The feedback not only shows the outcome from the choice they made, but also what would have happened had they chosen the other option.</p>
+<p>This kind of task involves both learning from experience and responding to explicit cues (the verbal hint). So, the participants&rsquo; choices are likely inﬂuenced by a combination of factors, including their initial beliefs, their learning from the feedback, and their interpretation of the hint.</p>
+<p>Given this context, it&rsquo;s possible that a model that incorporates cognitive features could perform well, as it could capture these diﬀerent aspects of the decision-making process. However, since the cognitive features are not directly observable, they would need to be inferred from the data, which is challenging.</p>
+<p>An alternative approach would be to use a machine learning model that incorporates features based on these cognitive factors. For instance, one could create features representing the recent history of outcomes for each option, the recent history of choices, the number of times each option led to a loss, and the number of times the verbal hint was associated with each option. These features could be included in a regression or a more complex machine learning model to predict the participants&rsquo; choices.</p>
+<p>Thus, I take a machine learning approach where we incorporate cognitive features.</p>
+<p>However, because the provided dataset does not contain individual level data (data from each round for each participant), but only summarizes the results, it&rsquo;s not feasible to create features based on individual learning or feedback from rounds. Our feature set is limited to the task parameters provided (<code>a1</code>, <code>pa1</code>, <code>a2</code>, <code>b1</code>, <code>pb1</code>,
+<code>b2</code>, <code>corr</code>).</p>
+<p>Given this, we can proceed with a pure machine learning approach, using these seven task parameters to predict the eight outcome variables (<code>Arate1</code>, <code>Arate2</code>,
+<code>Arate3</code>, <code>Arate4</code>, <code>AAAbest</code>, <code>AAAnotb</code>, <code>ABAbest</code>, <code>ABAnotb</code>).</p>
+<p>We&rsquo;ll ﬁrst need to handle the missing values in the dataset. Since they are relatively few, we can replace them with the median of the respective columns. For the model, we can use a Random Forest Regressor, which can handle complex non-linear</p>
+<p>relationships between the features and the target variables. We&rsquo;ll build a separate model for each of the eight statistics.</p>
+<p>Let&rsquo;s start with data preprocessing and then proceed to model building. We&rsquo;ll split the data into a training set (80%) and a validation set (20%) to evaluate the performance of our models.</p>
+<p>We have successfully trained a separate Random Forest model for each of the eight target variables. The performances of the models, measured by the root mean square error (RMSE) on the validation set, are as follows:</p>
+<ul>
+<li>&lsquo;Arate1&rsquo;: 0.1485</li>
+<li>&lsquo;Arate2&rsquo;: 0.1640</li>
+<li>&lsquo;Arate3&rsquo;: 0.1626</li>
+<li>&lsquo;Arate4&rsquo;: 0.1794</li>
+<li>&lsquo;AAAbest&rsquo;: 0.1124</li>
+<li>&lsquo;AAAnotb&rsquo;: 0.1067</li>
+<li>&lsquo;ABAbest&rsquo;: 0.1107</li>
+<li>&lsquo;ABAnotb&rsquo;: 0.1028</li>
+</ul>
+<p>The RMSE values represent the average diﬀerence between the actual and predicted values in the validation set, so lower values indicate better performance.</p>
+<p>These results suggest that the models can reasonably predict the eight statistics based on the seven task parameters. However, the performance could potentially be improved with more complex models or additional features. For example, if individual-level data were available, we could create features based on the learning and feedback from each round to capture the cognitive factors.</p>
+<p>Here is a verbal description of the model:</p>
+<p>A Random Forest model works by creating a large number of individual decision trees, each trained on a random subset of the data, and then combines their predictions to produce a ﬁnal prediction. Each decision tree in the forest makes a prediction independently, and the ﬁnal prediction of the Random Forest model is determined by averaging the predictions of all the trees.</p>
+<p>In this case, each Random Forest model was initialized with the following</p>
+<p>parameters:</p>
+<ul>
+<li>
+<p><code>n_estimators=100</code>: This is the number of trees in the forest. Each tree is ﬁt on a bootstrap sample (i.e., a sample drawn with replacement) of the data, and the predictions of all the trees are averaged to obtain the ﬁnal prediction.</p>
+</li>
+<li>
+<p><code>random_state=0</code>: This is a seed for the random number generator, used for reproducibility. With this seed, the same sequence of random numbers will be generated each time the model is run, ensuring that the results are consistent across runs.</p>
+</li>
+</ul>
+<p>Each of these models takes as input the seven task parameters (<code>a1</code>, <code>pa1</code>, <code>a2</code>, <code>b1</code>,
+<code>pb1</code>, <code>b2</code>, and <code>corrab</code>) and outputs a prediction for the corresponding target variable.</p>
+<p>The Random Forest model has several advantages: it can capture complex relationships between the features and the target variable, it is robust to outliers, and it can handle both numerical and categorical features. However, it is a &ldquo;black box&rdquo; model, meaning that the process it uses to make predictions is not easily interpretable by humans.</p>
+<p>In terms of performance, the model showed reasonable accuracy based on cross- validation, with Root Mean Squared Errors (RMSEs) ranging from around 0.11 to 0.20 for the diﬀerent target variables. This means that the model&rsquo;s predictions are, on average, within about 0.11 to 0.20 units of the actual values.</p>
 <h2 id="link">Link</h2>
 <p>Link to the <a href="https://app.noteable.io/f/a9928332-023f-4a3a-97f2-2b618d4302c7">Code</a></p>
 
