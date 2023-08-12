@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html><head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>Final project of the course &#34;Cognition and Decision making&#34; (Technion) - Louis Tungs Blog of Data Wrangling 📊 🌿</title><meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Introduction The final project of this course focuses on the prediction of choice behavior in a space of choice tasks that extends the space considered by Erev et al. (2023). The participants in Erev et al.’s study did not receive a description of the keys, and had to base their decisions on the feedback provided after each choice. The current space includes similar tasks (but with only two keys), and also considers tasks in which part of the keys are described." />
+	<meta property="og:image" content=""/>
+	<meta property="og:title" content="Final project of the course &#34;Cognition and Decision making&#34; (Technion)" />
+<meta property="og:description" content="Introduction The final project of this course focuses on the prediction of choice behavior in a space of choice tasks that extends the space considered by Erev et al. (2023). The participants in Erev et al.’s study did not receive a description of the keys, and had to base their decisions on the feedback provided after each choice. The current space includes similar tasks (but with only two keys), and also considers tasks in which part of the keys are described." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://ww11632.github.io/posts/course-work-of-congnition-and-decision-makingtechnion/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2023-08-12T00:00:00+00:00" />
+<meta property="article:modified_time" content="2023-08-12T00:00:00+00:00" />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Final project of the course &#34;Cognition and Decision making&#34; (Technion)"/>
+<meta name="twitter:description" content="Introduction The final project of this course focuses on the prediction of choice behavior in a space of choice tasks that extends the space considered by Erev et al. (2023). The participants in Erev et al.’s study did not receive a description of the keys, and had to base their decisions on the feedback provided after each choice. The current space includes similar tasks (but with only two keys), and also considers tasks in which part of the keys are described."/>
+<script src="https://ww11632.github.io/js/feather.min.js"></script>
+	
+	
+        <link href="https://ww11632.github.io/css/fonts.2c2227b81b1970a03e760aa2e6121cd01f87c88586803cbb282aa224720a765f.css" rel="stylesheet">
+	
+
+	
+	<link rel="stylesheet" type="text/css" media="screen" href="https://ww11632.github.io/css/main.ac08a4c9714baa859217f92f051deb58df2938ec352b506df655005dcaf98cc0.css" />
+		<link id="darkModeStyle" rel="stylesheet" type="text/css" href="https://ww11632.github.io/css/dark.726cd11ca6eb7c4f7d48eb420354f814e5c1b94281aaf8fd0511c1319f7f78a4.css"   />
+	
+
+	
+	
+
+	
+	
+	
+	
+</head>
+<body>
+        <div class="content"><header>
+	<div class="main">
+		<a href="https://ww11632.github.io/">Louis Tungs Blog of Data Wrangling 📊 🌿</a>
+	</div>
+	<nav>
+		
+		<a href="/">Home</a>
+		
+		<a href="/posts">All posts</a>
+		
+		<a href="/tags">Tags</a>
+		
+		
+	</nav>
+	
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-090Q9LG5ZM"></script>
+<script>
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+	gtag('config', 'G-090Q9LG5ZM', { 'anonymize_ip': false });
+}
+</script>
+
+</header>
+
+<main>
+	<article>
+		<div class="title">
+			<h1 class="title">Final project of the course &#34;Cognition and Decision making&#34; (Technion)</h1>
+			<div class="meta">Posted on Aug 12, 2023</div>
+		</div>
+		
+
+		<section class="body">
+			<h2 id="introduction">Introduction</h2>
+<p>The final project of this course focuses on the prediction of choice behavior in a space of choice tasks that extends the space considered by Erev et al. (2023). The participants in Erev et al.’s study did not receive a description of the keys, and had to base their decisions on the feedback provided after each choice. The current space includes similar tasks (but with only two keys), and also considers tasks in which part of the keys are described.</p>
+<figure><img src="https://drive.google.com/file/d/1QtT8nppylbeA7ZdkiCVVV95y6r4doyRG/view?usp=sharing"/><figcaption>
+            <h4>Figure 1 presents the instructions for the participants and the main screens in one of the tasks.</h4>
+        </figcaption>
+</figure>
+
+<p>Each participant (Mturk worker) will face one task for 100 trials. Each task involves a choice between two options, and defined by Seven parameters (a1, pa1, a2, b1, pb1, b2, and Corr). Option A provides “a1 with pa1, and a2 otherwise,” and Option B provides “b1 with pb1, and b2 otherwise” The parameter Corr determines the correlation between the payoffs of the two options.</p>
+<p>Our goal is to predict 8 statistics in each task by develop a model based on analysis of the training experiment, and then will be asked to predict the results of the test experiment:
+Arate1: the proportion of A choices between trial 1 to 25
+Arate 2: the proportion of A choices between trial 26 to 50
+Arate 3: the proportion of A choices between trial 51 to 75
+Arate 4: the proportion of A choices between trial 76 to 100
+AAAbest: The proportion of A choices after a trial in which the participant chose A, and A provided the best possible payoff.
+AAAnotb: The proportion of A choices after a trial in which the participant chose A, and A did not provide the best possible payoff.
+ABAbest: The proportion of A choices after a trial in which the participant chose B, and A provided the best possible payoff.
+ABAnotb: The proportion of A choices after a trial in which the participant chose B, and A did not provide the best possible payoff.</p>
+<h2 id="explanation-of-the-variables-name-in-the-data-set">Explanation of the variables’ name in the data set:</h2>
+<p>ID: The participant identification code</p>
+<p>Trial: Trial number (1 to 100)</p>
+<p>Prob: The problem number.</p>
+<p>a1: One of the two possible payoff of option A (the safer option)</p>
+<p>pa1: The probability of the payoff a1</p>
+<p>a2: One of the two possible payoff of option A (the safer option)</p>
+<p>b1: One of the two possible payoff of option B (the riskier option)</p>
+<p>pb1: The probability of the payoff b1</p>
+<p>b2: One of the two possible payoff of option B (the riskier option)</p>
+<p>corrab: The correlation between the random variables that determine the payoff from options A and B</p>
+<p>A_label: The description of Option A (if any).</p>
+<p>B_label: The description of Option B (if any).</p>
+<p>Arate: 1 if A was selected, 0 otherwise</p>
+<p>VA: the payoff from A</p>
+<p>VB: the payoff from B</p>
+<h2 id="link">Link</h2>
+<p>Link to the <a href="https://app.noteable.io/f/a9928332-023f-4a3a-97f2-2b618d4302c7">Code</a></p>
+
+		</section>
+
+		<div class="post-tags">
+			
+			
+			<nav class="nav tags">
+				<ul class="tags">
+					
+					<li><a href="/tags/python">Python</a></li>
+					
+				</ul>
+			</nav>
+			
+			
+		</div>
+		</article>
+</main>
+<footer>
+  <div style="display:flex"><a class="soc" href="https://github.com/ww11632" rel="me" title="GitHub"><i data-feather="github"></i></a>
+    <a class="border"></a><a class="soc" href="https://www.linkedin.com/in/lichia-t/" rel="me" title="Linkedin"><i data-feather="linkedin"></i></a>
+    <a class="border"></a></div>
+  <div class="footer-info">
+    2023  © Louis Tung |  <a
+      href="https://github.com/athul/archie">Archie Theme</a> | Built with <a href="https://gohugo.io">Hugo</a>
+  </div>
+</footer>
+
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'G-090Q9LG5ZM', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+<script>
+  feather.replace()
+</script></div>
+    </body>
+    
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-090Q9LG5ZM"></script>
+<script>
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+	gtag('config', 'G-090Q9LG5ZM', { 'anonymize_ip': false });
+}
+</script>
+
+</html>
+
