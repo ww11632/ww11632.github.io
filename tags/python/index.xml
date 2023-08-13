@@ -18,18 +18,6 @@
     </item>
     
     <item>
-      <title>Create predictive models for bike-sharing services while analyzing the various factors that impact them.</title>
-      <link>https://ww11632.github.io/posts/a-model-that-can-forecast-the-bike-sharing-demand-and-analyze-the-influencing-factors/</link>
-      <pubDate>Sat, 15 Jul 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://ww11632.github.io/posts/a-model-that-can-forecast-the-bike-sharing-demand-and-analyze-the-influencing-factors/</guid>
-      <description>Introduction Preprocess and split the dataset in an appropriate way via Python such that we can evaluate our model properly.
-Explore the data through descriptive statistics and visualization and summarize findings about the data.
-Develop three different models and train them on the training set. Find a proper way to combine the prediction results of these models.
-Compare the models as well as the ensemble results using appropriate performance metrics.</description>
-    </item>
-    
-    <item>
       <title>Apply Hierarchical Risk Parity to Asset allocation</title>
       <link>https://ww11632.github.io/posts/assest-allocation/</link>
       <pubDate>Mon, 03 Apr 2023 00:00:00 +0000</pubDate>
@@ -37,6 +25,18 @@ Compare the models as well as the ensemble results using appropriate performance
       <guid>https://ww11632.github.io/posts/assest-allocation/</guid>
       <description>Introduction Originally, when utilizing normal covariance to do asset allocation, the noise of the data will greatly affect the final allocation result, but Prof. Ledoit and Prof. Wolf found a simple method to solve this problem so that the result is more stable and will not be affected by the historical data noise.
 Steps Download Historical Data from yfinance Set up environemnt Weight asset Backtesting Calculate the Max dropdown Analysis Link Link to the Code</description>
+    </item>
+    
+    <item>
+      <title>Create predictive models for bike-sharing services while analyzing the various factors that impact them.</title>
+      <link>https://ww11632.github.io/posts/a-model-that-can-forecast-the-bike-sharing-demand-and-analyze-the-influencing-factors/</link>
+      <pubDate>Fri, 31 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://ww11632.github.io/posts/a-model-that-can-forecast-the-bike-sharing-demand-and-analyze-the-influencing-factors/</guid>
+      <description>Introduction Preprocess and split the dataset in an appropriate way via Python such that we can evaluate our model properly.
+Explore the data through descriptive statistics and visualization and summarize findings about the data.
+Develop three different models and train them on the training set. Find a proper way to combine the prediction results of these models.
+Compare the models as well as the ensemble results using appropriate performance metrics.</description>
     </item>
     
     <item>

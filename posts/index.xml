@@ -18,15 +18,13 @@
     </item>
     
     <item>
-      <title>Create predictive models for bike-sharing services while analyzing the various factors that impact them.</title>
-      <link>https://ww11632.github.io/posts/a-model-that-can-forecast-the-bike-sharing-demand-and-analyze-the-influencing-factors/</link>
+      <title>Analytics dashboard for eCommerce store - Google Looker Studio</title>
+      <link>https://ww11632.github.io/posts/google-looker-studio/</link>
       <pubDate>Sat, 15 Jul 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://ww11632.github.io/posts/a-model-that-can-forecast-the-bike-sharing-demand-and-analyze-the-influencing-factors/</guid>
-      <description>Introduction Preprocess and split the dataset in an appropriate way via Python such that we can evaluate our model properly.
-Explore the data through descriptive statistics and visualization and summarize findings about the data.
-Develop three different models and train them on the training set. Find a proper way to combine the prediction results of these models.
-Compare the models as well as the ensemble results using appropriate performance metrics.</description>
+      <guid>https://ww11632.github.io/posts/google-looker-studio/</guid>
+      <description>Introduction Using Google Looker Studio to develop day-to-day Web Analytics and the Spreadsheet where the visualization and manipulations of data were performed for the eCommerce store.
+Dashboard Figure 1. Dashboard Overview. Figure 2. Flow Analysis . Figure 3. Demographics Analysis . Figure 4. New/Old Client Analysis . Figure 5. Product Sales Analysis . Figure 6. Page &amp;amp; Search Term Analysis . Figure 7. Device Analysis . Figure 8. Potential Buyers Analysis .</description>
     </item>
     
     <item>
@@ -51,13 +49,15 @@ Steps Download Historical Data from yfinance Set up environemnt Weight asset Bac
     </item>
     
     <item>
-      <title>Analytics dashboard for eCommerce store - Google Looker Studio</title>
-      <link>https://ww11632.github.io/posts/google-looker-studio/</link>
+      <title>Create predictive models for bike-sharing services while analyzing the various factors that impact them.</title>
+      <link>https://ww11632.github.io/posts/a-model-that-can-forecast-the-bike-sharing-demand-and-analyze-the-influencing-factors/</link>
       <pubDate>Fri, 31 Mar 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://ww11632.github.io/posts/google-looker-studio/</guid>
-      <description>Introduction Using Google Looker Studio to develop day-to-day Web Analytics and the Spreadsheet where the visualization and manipulations of data were performed for the eCommerce store.
-Dashboard Figure 1. Dashboard Overview. Figure 2. Flow Analysis . Figure 3. Demographics Analysis . Figure 4. New/Old Client Analysis . Figure 5. Product Sales Analysis . Figure 6. Page &amp;amp; Search Term Analysis . Figure 7. Device Analysis . Figure 8. Potential Buyers Analysis .</description>
+      <guid>https://ww11632.github.io/posts/a-model-that-can-forecast-the-bike-sharing-demand-and-analyze-the-influencing-factors/</guid>
+      <description>Introduction Preprocess and split the dataset in an appropriate way via Python such that we can evaluate our model properly.
+Explore the data through descriptive statistics and visualization and summarize findings about the data.
+Develop three different models and train them on the training set. Find a proper way to combine the prediction results of these models.
+Compare the models as well as the ensemble results using appropriate performance metrics.</description>
     </item>
     
     <item>
