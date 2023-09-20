@@ -2,29 +2,29 @@
 <html><head>
 	<meta charset="utf-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>Data Engineering project - Taiwan Stock Market Data Analysis - From Crawler to Dashboard - LiChias Blog of Data Wrangling 📊 🌿</title><meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="Product Architecture Figure 1 Product Architeture. Product Taiwan stock market Visualize analysis Dashboard Figure 2 Chip Analysis example. GET: (http://172.232.132.138:5000/)
-Send me your email address, then I will create an account for you to access the dashboard.
-Taiwan stock market data API
-GET: (http://testapi.serveirc.com/docs#/)
-| Parameter | Description | |:-------------------:|:--------------------:| | stock_id | code of the stock | | start_date | start time | | end_date | end time | Data Engineering Using distributed technology, rabbitMQ, flower, and celery, to collect the data from Taiwan Stock Exchange, Taipei Exchange, and Taiwan Futures Exchange." />
+	<meta name="description" content="Product Architecture Figure 1 Product Architeture. Data Engineering Using distributed technology, rabbitMQ, flower, and celery, to collect the data from Taiwan Stock Exchange, Taipei Exchange, and Taiwan Futures Exchange.
+Using docker, fast API to set up RESTful API service.
+Using docker swarm to set up distributed service, including web crawler, API, MySQL database, and RabbitMQ.
+Using Cloud service - Linode, to manage multiple distributed machines.
+Product iteration Unit test, including crawler, and API." />
 	<meta property="og:image" content=""/>
 	<meta property="og:title" content="Data Engineering project - Taiwan Stock Market Data Analysis - From Crawler to Dashboard" />
-<meta property="og:description" content="Product Architecture Figure 1 Product Architeture. Product Taiwan stock market Visualize analysis Dashboard Figure 2 Chip Analysis example. GET: (http://172.232.132.138:5000/)
-Send me your email address, then I will create an account for you to access the dashboard.
-Taiwan stock market data API
-GET: (http://testapi.serveirc.com/docs#/)
-| Parameter | Description | |:-------------------:|:--------------------:| | stock_id | code of the stock | | start_date | start time | | end_date | end time | Data Engineering Using distributed technology, rabbitMQ, flower, and celery, to collect the data from Taiwan Stock Exchange, Taipei Exchange, and Taiwan Futures Exchange." />
+<meta property="og:description" content="Product Architecture Figure 1 Product Architeture. Data Engineering Using distributed technology, rabbitMQ, flower, and celery, to collect the data from Taiwan Stock Exchange, Taipei Exchange, and Taiwan Futures Exchange.
+Using docker, fast API to set up RESTful API service.
+Using docker swarm to set up distributed service, including web crawler, API, MySQL database, and RabbitMQ.
+Using Cloud service - Linode, to manage multiple distributed machines.
+Product iteration Unit test, including crawler, and API." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://ww11632.github.io/posts/data-eng-project/" /><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2023-09-20T00:00:00+00:00" />
 <meta property="article:modified_time" content="2023-09-20T00:00:00+00:00" />
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Data Engineering project - Taiwan Stock Market Data Analysis - From Crawler to Dashboard"/>
-<meta name="twitter:description" content="Product Architecture Figure 1 Product Architeture. Product Taiwan stock market Visualize analysis Dashboard Figure 2 Chip Analysis example. GET: (http://172.232.132.138:5000/)
-Send me your email address, then I will create an account for you to access the dashboard.
-Taiwan stock market data API
-GET: (http://testapi.serveirc.com/docs#/)
-| Parameter | Description | |:-------------------:|:--------------------:| | stock_id | code of the stock | | start_date | start time | | end_date | end time | Data Engineering Using distributed technology, rabbitMQ, flower, and celery, to collect the data from Taiwan Stock Exchange, Taipei Exchange, and Taiwan Futures Exchange."/>
+<meta name="twitter:description" content="Product Architecture Figure 1 Product Architeture. Data Engineering Using distributed technology, rabbitMQ, flower, and celery, to collect the data from Taiwan Stock Exchange, Taipei Exchange, and Taiwan Futures Exchange.
+Using docker, fast API to set up RESTful API service.
+Using docker swarm to set up distributed service, including web crawler, API, MySQL database, and RabbitMQ.
+Using Cloud service - Linode, to manage multiple distributed machines.
+Product iteration Unit test, including crawler, and API."/>
 <script src="https://ww11632.github.io/js/feather.min.js"></script>
 	
 	
@@ -86,12 +86,25 @@ if (!doNotTrack) {
            </figcaption>
    </figure>
 
+<h2 id="data-engineering">Data Engineering</h2>
+<p>Using distributed technology, rabbitMQ, flower, and celery, to collect the data from Taiwan Stock Exchange, Taipei Exchange, and Taiwan Futures Exchange.</p>
+<p>Using docker, fast API to set up RESTful API service.</p>
+<p>Using docker swarm to set up distributed service, including web crawler, API, MySQL database, and RabbitMQ.</p>
+<p>Using Cloud service - Linode, to manage multiple distributed machines.</p>
+<h2 id="product-iteration">Product iteration</h2>
+<p>Unit test, including crawler, and API.</p>
+<p>Using CI/CD to conduct Continuous integration and deployment, and using GitHub-ci with API service.</p>
+<h2 id="api-product">API Product</h2>
+<p>Using No-IP as domain name service provider.</p>
+<p>Using Traefik as reverse proxy and load balancer provider.</p>
+<h2 id="visulize-dashboard">Visulize Dashboard</h2>
+<p>Using Redash to conduct SQL queries and create personalized stock market analysis dashboard.</p>
 <h2 id="product">Product</h2>
 <ol>
 <li>
 <p>Taiwan stock market Visualize analysis Dashboard
 <figure><img src="https://drive.google.com/uc?export=view&amp;id=15RJJWUCElZHJ6eM84M8F0c_p8EKs5jKj"/><figcaption>
-               <h4>Figure 2 Chip Analysis example.</h4>
+               <h4>Figure 2 Distribution of Chips Analysis.</h4>
            </figcaption>
    </figure>
 </p>
@@ -111,23 +124,6 @@ if (!doNotTrack) {
 </code></pre>
 </li>
 </ol>
-<h2 id="data-engineering">Data Engineering</h2>
-<p>Using distributed technology, rabbitMQ, flower, and celery, to collect the data from Taiwan Stock Exchange, Taipei Exchange, and Taiwan Futures Exchange.</p>
-<p>Using docker, fast API to set up RESTful API service.</p>
-<p>Using docker swarm to set up distributed service, including web crawler, API, MySQL database, and RabbitMQ.</p>
-<p>Using Cloud service - Linode, to manage multiple distributed machines.</p>
-<h2 id="product-iteration">Product iteration</h2>
-<p>Unit test, including crawler, and API.</p>
-<p>Using CI/CD to conduct Continuous integration and deployment, and using GitHub-ci with API service.</p>
-<h2 id="api-product">API Product</h2>
-<p>Using No-IP as domain name service provider.</p>
-<p>Using Traefik as reverse proxy and load balancer provider.</p>
-<h2 id="visulize-dashboard">Visulize Dashboard</h2>
-<p>Using Redash to conduct SQL queries and create personalized stock market analysis dashboard.</p>
-<h2 id="link">Link</h2>
-<p>Link to the <a href="https://drive.google.com/file/d/1Staf86mlKWEvTAnksnyUCDLjDp0aZNDA/view?usp=sharing">Dataset</a></p>
-<p>Link to the <a href="https://datalore.jetbrains.com/notebook/RerXQ75eW0OEUU6QKo7Kpj/ENOUzmeXg1JW2iYEC0jf6p">Code</a></p>
-<p>Note: Due to Datalore&rsquo;s R environment cannot install the Rethinking package, please copy the code to R studio and then run over there.</p>
 
 		</section>
 

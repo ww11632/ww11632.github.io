@@ -14,11 +14,11 @@
       <pubDate>Wed, 20 Sep 2023 00:00:00 +0000</pubDate>
       
       <guid>https://ww11632.github.io/posts/data-eng-project/</guid>
-      <description>Product Architecture Figure 1 Product Architeture. Product Taiwan stock market Visualize analysis Dashboard Figure 2 Chip Analysis example. GET: (http://172.232.132.138:5000/)
-Send me your email address, then I will create an account for you to access the dashboard.
-Taiwan stock market data API
-GET: (http://testapi.serveirc.com/docs#/)
-| Parameter | Description | |:-------------------:|:--------------------:| | stock_id | code of the stock | | start_date | start time | | end_date | end time | Data Engineering Using distributed technology, rabbitMQ, flower, and celery, to collect the data from Taiwan Stock Exchange, Taipei Exchange, and Taiwan Futures Exchange.</description>
+      <description>Product Architecture Figure 1 Product Architeture. Data Engineering Using distributed technology, rabbitMQ, flower, and celery, to collect the data from Taiwan Stock Exchange, Taipei Exchange, and Taiwan Futures Exchange.
+Using docker, fast API to set up RESTful API service.
+Using docker swarm to set up distributed service, including web crawler, API, MySQL database, and RabbitMQ.
+Using Cloud service - Linode, to manage multiple distributed machines.
+Product iteration Unit test, including crawler, and API.</description>
     </item>
     
     <item>
