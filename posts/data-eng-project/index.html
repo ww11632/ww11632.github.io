@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html><head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>Data Engineering project - Taiwan Stock Market Data Analysis - From Crawler to Dashboard - LiChias Blog of Data Wrangling 📊 🌿</title><meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Product Architecture Figure 1 Product Architeture. Product Taiwan stock market Visualize analysis Dashboard Figure 2 Chip Analysis example. GET: (http://172.232.132.138:5000/)
+Send me your email address, then I will create an account for you to access the dashboard.
+Taiwan stock market data API
+GET: (http://testapi.serveirc.com/docs#/)
+| Parameter | Description | |:-------------------:|:--------------------:| | stock_id | code of the stock | | start_date | start time | | end_date | end time | Data Engineering Using distributed technology, rabbitMQ, flower, and celery, to collect the data from Taiwan Stock Exchange, Taipei Exchange, and Taiwan Futures Exchange." />
+	<meta property="og:image" content=""/>
+	<meta property="og:title" content="Data Engineering project - Taiwan Stock Market Data Analysis - From Crawler to Dashboard" />
+<meta property="og:description" content="Product Architecture Figure 1 Product Architeture. Product Taiwan stock market Visualize analysis Dashboard Figure 2 Chip Analysis example. GET: (http://172.232.132.138:5000/)
+Send me your email address, then I will create an account for you to access the dashboard.
+Taiwan stock market data API
+GET: (http://testapi.serveirc.com/docs#/)
+| Parameter | Description | |:-------------------:|:--------------------:| | stock_id | code of the stock | | start_date | start time | | end_date | end time | Data Engineering Using distributed technology, rabbitMQ, flower, and celery, to collect the data from Taiwan Stock Exchange, Taipei Exchange, and Taiwan Futures Exchange." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://ww11632.github.io/posts/data-eng-project/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2023-09-20T00:00:00+00:00" />
+<meta property="article:modified_time" content="2023-09-20T00:00:00+00:00" />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Data Engineering project - Taiwan Stock Market Data Analysis - From Crawler to Dashboard"/>
+<meta name="twitter:description" content="Product Architecture Figure 1 Product Architeture. Product Taiwan stock market Visualize analysis Dashboard Figure 2 Chip Analysis example. GET: (http://172.232.132.138:5000/)
+Send me your email address, then I will create an account for you to access the dashboard.
+Taiwan stock market data API
+GET: (http://testapi.serveirc.com/docs#/)
+| Parameter | Description | |:-------------------:|:--------------------:| | stock_id | code of the stock | | start_date | start time | | end_date | end time | Data Engineering Using distributed technology, rabbitMQ, flower, and celery, to collect the data from Taiwan Stock Exchange, Taipei Exchange, and Taiwan Futures Exchange."/>
+<script src="https://ww11632.github.io/js/feather.min.js"></script>
+	
+	
+        <link href="https://ww11632.github.io/css/fonts.2c2227b81b1970a03e760aa2e6121cd01f87c88586803cbb282aa224720a765f.css" rel="stylesheet">
+	
+
+	
+	<link rel="stylesheet" type="text/css" media="screen" href="https://ww11632.github.io/css/main.ac08a4c9714baa859217f92f051deb58df2938ec352b506df655005dcaf98cc0.css" />
+
+	
+	
+
+	
+	
+	
+	
+</head>
+<body>
+        <div class="content"><header>
+	<div class="main">
+		<a href="https://ww11632.github.io/">LiChias Blog of Data Wrangling 📊 🌿</a>
+	</div>
+	<nav>
+		
+		<a href="/">Home</a>
+		
+		<a href="/posts">All posts</a>
+		
+		<a href="/tags">Tags</a>
+		
+		
+	</nav>
+	
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-090Q9LG5ZM"></script>
+<script>
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+	gtag('config', 'G-090Q9LG5ZM', { 'anonymize_ip': false });
+}
+</script>
+
+</header>
+
+<main>
+	<article>
+		<div class="title">
+			<h1 class="title">Data Engineering project - Taiwan Stock Market Data Analysis - From Crawler to Dashboard</h1>
+			<div class="meta">Posted on Sep 20, 2023</div>
+		</div>
+		
+
+		<section class="body">
+			<h2 id="product-architecture">Product Architecture</h2>
+<figure><img src="https://drive.google.com/uc?export=view&amp;id=1TqoNfA8Eu8EnrTMpT9ED5X4pNCK8tTzn"/><figcaption>
+               <h4>Figure 1 Product Architeture.</h4>
+           </figcaption>
+   </figure>
+
+<h2 id="product">Product</h2>
+<ol>
+<li>
+<p>Taiwan stock market Visualize analysis Dashboard
+<figure><img src="https://drive.google.com/uc?export=view&amp;id=15RJJWUCElZHJ6eM84M8F0c_p8EKs5jKj"/><figcaption>
+               <h4>Figure 2 Chip Analysis example.</h4>
+           </figcaption>
+   </figure>
+</p>
+<p>GET: (http://172.232.132.138:5000/)</p>
+<blockquote>
+<p>Send me your email address, then I will create an account for you to access the dashboard.</p>
+</blockquote>
+</li>
+<li>
+<p>Taiwan stock market data API</p>
+<p>GET: (<a href="http://testapi.serveirc.com/docs#/">http://testapi.serveirc.com/docs#/</a>)</p>
+<pre><code>     |      Parameter      |      Description     |
+     |:-------------------:|:--------------------:|
+     |       stock_id      |   code of the stock  |
+     |      start_date     |      start time      |
+     |       end_date      |       end time       |
+</code></pre>
+</li>
+</ol>
+<h2 id="data-engineering">Data Engineering</h2>
+<p>Using distributed technology, rabbitMQ, flower, and celery, to collect the data from Taiwan Stock Exchange, Taipei Exchange, and Taiwan Futures Exchange.</p>
+<p>Using docker, fast API to set up RESTful API service.</p>
+<p>Using docker swarm to set up distributed service, including web crawler, API, MySQL database, and RabbitMQ.</p>
+<p>Using Cloud service - Linode, to manage multiple distributed machines.</p>
+<h2 id="product-iteration">Product iteration</h2>
+<p>Unit test, including crawler, and API.</p>
+<p>Using CI/CD to conduct Continuous integration and deployment, and using GitHub-ci with API service.</p>
+<h2 id="api-product">API Product</h2>
+<p>Using No-IP as domain name service provider.</p>
+<p>Using Traefik as reverse proxy and load balancer provider.</p>
+<h2 id="visulize-dashboard">Visulize Dashboard</h2>
+<p>Using Redash to conduct SQL queries and create personalized stock market analysis dashboard.</p>
+<h2 id="link">Link</h2>
+<p>Link to the <a href="https://drive.google.com/file/d/1Staf86mlKWEvTAnksnyUCDLjDp0aZNDA/view?usp=sharing">Dataset</a></p>
+<p>Link to the <a href="https://datalore.jetbrains.com/notebook/RerXQ75eW0OEUU6QKo7Kpj/ENOUzmeXg1JW2iYEC0jf6p">Code</a></p>
+<p>Note: Due to Datalore&rsquo;s R environment cannot install the Rethinking package, please copy the code to R studio and then run over there.</p>
+
+		</section>
+
+		<div class="post-tags">
+			
+			
+			<nav class="nav tags">
+				<ul class="tags">
+					
+					<li><a href="/tags/cloud">Cloud</a></li>
+					
+				</ul>
+			</nav>
+			
+			
+		</div>
+		</article>
+</main>
+<footer>
+  <div style="display:flex"><a class="soc" href="https://github.com/ww11632" rel="me" title="GitHub"><i data-feather="github"></i></a>
+    <a class="border"></a><a class="soc" href="https://www.linkedin.com/in/lichia-t/" rel="me" title="Linkedin"><i data-feather="linkedin"></i></a>
+    <a class="border"></a></div>
+  <div class="footer-info">
+    2023  © Louis Tung |  <a
+      href="https://github.com/athul/archie">Archie Theme</a> | Built with <a href="https://gohugo.io">Hugo</a>
+  </div>
+</footer>
+
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'G-090Q9LG5ZM', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+<script>
+  feather.replace()
+</script></div>
+    </body>
+    
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-090Q9LG5ZM"></script>
+<script>
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+	gtag('config', 'G-090Q9LG5ZM', { 'anonymize_ip': false });
+}
+</script>
+
+</html>
+

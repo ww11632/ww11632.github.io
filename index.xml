@@ -7,7 +7,20 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© Louis Tung</copyright>
-    <lastBuildDate>Sat, 12 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://ww11632.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 20 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://ww11632.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Data Engineering project - Taiwan Stock Market Data Analysis - From Crawler to Dashboard</title>
+      <link>https://ww11632.github.io/posts/data-eng-project/</link>
+      <pubDate>Wed, 20 Sep 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://ww11632.github.io/posts/data-eng-project/</guid>
+      <description>Product Architecture Figure 1 Product Architeture. Product Taiwan stock market Visualize analysis Dashboard Figure 2 Chip Analysis example. GET: (http://172.232.132.138:5000/)
+Send me your email address, then I will create an account for you to access the dashboard.
+Taiwan stock market data API
+GET: (http://testapi.serveirc.com/docs#/)
+| Parameter | Description | |:-------------------:|:--------------------:| | stock_id | code of the stock | | start_date | start time | | end_date | end time | Data Engineering Using distributed technology, rabbitMQ, flower, and celery, to collect the data from Taiwan Stock Exchange, Taipei Exchange, and Taiwan Futures Exchange.</description>
+    </item>
+    
     <item>
       <title>Final project of the course &#34;Cognition and Decision making&#34; (Technion)</title>
       <link>https://ww11632.github.io/posts/course-work-of-congnition-and-decision-makingtechnion/</link>
