@@ -18,7 +18,7 @@
 Using docker, fast API to set up RESTful API service.
 Using docker swarm to set up distributed service, including web crawler, API, MySQL database, and RabbitMQ.
 Using Cloud service - Linode, to manage multiple distributed machines.
-Product iteration Unit test, including crawler, and API.</description>
+Product CI/CD Unit test, including crawler, and API.</description>
     </item>
     
   </channel>
