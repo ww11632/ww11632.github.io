@@ -1,11 +1,108 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>0</title>
+    <title>Li Chias Blog of Data Wrangling</title>
     <link>https://ww11632.github.io/</link>
-    <description>Recent content on 0</description>
+    <description>Recent content on Li Chias Blog of Data Wrangling</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>© </copyright><atom:link href="https://ww11632.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>© Lichia</copyright>
+    <lastBuildDate>Wed, 20 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://ww11632.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Data Engineering project - Taiwan Stock Market Data Analysis - From Crawler, ETL to Dashboard</title>
+      <link>https://ww11632.github.io/posts/data-eng-project/</link>
+      <pubDate>Wed, 20 Sep 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://ww11632.github.io/posts/data-eng-project/</guid>
+      <description>Product Architecture Figure 1 Product Architeture. Data Engineering Under distributed architecture - Dockre swarm - Portainer, using Airflow, rabbitMQ, flower, and celery, to collect the daily data from Taiwan Stock Exchange, Taipei Exchange, and Taiwan Futures Exchange.
+Using docker, fast API to set up RESTful API service.
+Using docker swarm to set up distributed service, including web crawler, API, MySQL database, and RabbitMQ.
+Using Cloud service - Linode, to manage multiple distributed machines.</description>
+    </item>
+    
+    <item>
+      <title>Final project of the course &#34;Cognition and Decision making&#34; (Technion)</title>
+      <link>https://ww11632.github.io/posts/course-work-of-congnition-and-decision-makingtechnion/</link>
+      <pubDate>Sat, 12 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://ww11632.github.io/posts/course-work-of-congnition-and-decision-makingtechnion/</guid>
+      <description>Introduction The final project of this course focuses on the prediction of choice behavior in a space of choice tasks that extends the space considered by Erev et al. (2023). The participants in Erev et al.’s study did not receive a description of the keys, and had to base their decisions on the feedback provided after each choice. The current space includes similar tasks (but with only two keys), and also considers tasks in which part of the keys are described.</description>
+    </item>
+    
+    <item>
+      <title>Analytics dashboard for eCommerce store - Google Looker Studio</title>
+      <link>https://ww11632.github.io/posts/google-looker-studio/</link>
+      <pubDate>Sat, 15 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://ww11632.github.io/posts/google-looker-studio/</guid>
+      <description>Introduction Utilizing Google Looker Studio for the creation of daily web analytics, alongside a spreadsheet for data visualization and manipulation within the context of an eCommerce store. This setup also facilitates real-time data streaming capabilities. The data source is streaming from Google Analytics.
+Link Link to the Dashboard
+Dashboard Figure 1. Dashboard Overview. Figure 2. Flow Analysis . Figure 3. Demographics Analysis . Figure 4. New/Old Client Analysis . Figure 5.</description>
+    </item>
+    
+    <item>
+      <title>Via R Linear Modeling Shaq O&#39;Neal&#39;s scoring records</title>
+      <link>https://ww11632.github.io/posts/modeling-shaq-oneals-scroing-record/</link>
+      <pubDate>Fri, 14 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://ww11632.github.io/posts/modeling-shaq-oneals-scroing-record/</guid>
+      <description>Introduction Define the phenomenon of interest. Build a generative model of the data that captures the impact of the phenomenon. Use (2) to build a statistical model. Incorporate prior knowledge into (3). Validate (3) with simulated data from(2). Use (3) to analyze real data and learn about the phenomenon. Evaluate and update the model. Link Link to the Dataset
+Link to the Code
+Note: Due to Datalore&amp;rsquo;s R environment cannot install the Rethinking package, please copy the code to R studio and then run over there.</description>
+    </item>
+    
+    <item>
+      <title>Apply Hierarchical Risk Parity to Asset allocation</title>
+      <link>https://ww11632.github.io/posts/assest-allocation/</link>
+      <pubDate>Mon, 03 Apr 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://ww11632.github.io/posts/assest-allocation/</guid>
+      <description>Introduction Originally, when utilizing normal covariance to do asset allocation, the noise of the data will greatly affect the final allocation result, but Prof. Ledoit and Prof. Wolf found a simple method to solve this problem so that the result is more stable and will not be affected by the historical data noise.
+Steps Download Historical Data from yfinance Set up environemnt Weight asset Backtesting Calculate the Max dropdown Analysis Link Link to the Code</description>
+    </item>
+    
+    <item>
+      <title>Data Visualization for eCommerce store - Power BI</title>
+      <link>https://ww11632.github.io/posts/power-bi/</link>
+      <pubDate>Fri, 31 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://ww11632.github.io/posts/power-bi/</guid>
+      <description>Introduction Using Power BI to develop day-to-day Web Analytics and the Spreadsheet where the visualization and manipulations of data were performed for eCommerce store
+Link Link to download PBIX File</description>
+    </item>
+    
+    <item>
+      <title>Predictive models for bike-sharing services</title>
+      <link>https://ww11632.github.io/posts/a-model-that-can-forecast-the-bike-sharing-demand-and-analyze-the-influencing-factors/</link>
+      <pubDate>Fri, 31 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://ww11632.github.io/posts/a-model-that-can-forecast-the-bike-sharing-demand-and-analyze-the-influencing-factors/</guid>
+      <description>Introduction Preprocess and split the dataset in an appropriate way via Python such that we can evaluate our model properly.
+Explore the data through descriptive statistics and visualization and summarize findings about the data.
+Develop three different models and train them on the training set. Find a proper way to combine the prediction results of these models.
+Compare the models as well as the ensemble results using appropriate performance metrics.</description>
+    </item>
+    
+    <item>
+      <title>Utilize Sun.py to import &amp; analyse Solar Observation Data</title>
+      <link>https://ww11632.github.io/posts/utilize-sun.py-to-import-analyse-solar-observation-data/</link>
+      <pubDate>Mon, 27 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://ww11632.github.io/posts/utilize-sun.py-to-import-analyse-solar-observation-data/</guid>
+      <description>Introduction Utilize Sun.py to import &amp;amp; analyse Solar Observation Data
+Link Link to the Code</description>
+    </item>
+    
+    <item>
+      <title>Kama Nmae service</title>
+      <link>https://ww11632.github.io/posts/polygon_name_service/</link>
+      <pubDate>Sun, 29 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://ww11632.github.io/posts/polygon_name_service/</guid>
+      <description>Introduction ENS service on Polygon Mumbai Testnet
+Link A link to the Dapp
+Gitgub Link to the Github Repository</description>
+    </item>
+    
   </channel>
 </rss>

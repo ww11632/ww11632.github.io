@@ -1,11 +1,57 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on 0</title>
+    <title>Tags on Li Chias Blog of Data Wrangling</title>
     <link>https://ww11632.github.io/tags/</link>
-    <description>Recent content in Tags on 0</description>
+    <description>Recent content in Tags on Li Chias Blog of Data Wrangling</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>© </copyright><atom:link href="https://ww11632.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>© Lichia</copyright>
+    <lastBuildDate>Wed, 20 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://ww11632.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cloud</title>
+      <link>https://ww11632.github.io/tags/cloud/</link>
+      <pubDate>Wed, 20 Sep 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://ww11632.github.io/tags/cloud/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>python</title>
+      <link>https://ww11632.github.io/tags/python/</link>
+      <pubDate>Sat, 12 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://ww11632.github.io/tags/python/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>BI</title>
+      <link>https://ww11632.github.io/tags/bi/</link>
+      <pubDate>Sat, 15 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://ww11632.github.io/tags/bi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>R</title>
+      <link>https://ww11632.github.io/tags/r/</link>
+      <pubDate>Fri, 14 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://ww11632.github.io/tags/r/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Polygon</title>
+      <link>https://ww11632.github.io/tags/polygon/</link>
+      <pubDate>Sun, 29 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://ww11632.github.io/tags/polygon/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>
