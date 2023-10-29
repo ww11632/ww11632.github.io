@@ -57,7 +57,7 @@ Note: Due to Datalore&amp;rsquo;s R environment cannot install the Rethinking pa
       <pubDate>Mon, 03 Apr 2023 00:00:00 +0000</pubDate>
       
       <guid>https://ww11632.github.io/posts/assest-allocation/</guid>
-      <description>Introduction Originally, when utilizing normal covariance to do asset allocation, the noise of the data will greatly affect the final allocation result, but Prof. Ledoit and Prof. Wolf found a simple method to solve this problem so that the result is more stable and will not be affected by the historical data noise.
+      <description>Introduction When we utilize normal covariance to do asset allocation, the noise of the data will greatly affect the final allocation result, but Prof. Ledoit and Prof. Wolf found a simple method to solve this problem so that the result is more stable and will not be affected by the historical data noise.
 Steps Download Historical Data from yfinance Set up environemnt Weight asset Backtesting Calculate the Max dropdown Analysis Link Link to the Code</description>
     </item>
     
