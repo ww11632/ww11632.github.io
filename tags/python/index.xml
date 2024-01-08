@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© Lichia</copyright>
-    <lastBuildDate>Mon, 03 Apr 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://ww11632.github.io/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 12 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://ww11632.github.io/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Final project of the course &#34;Cognition and Decision making&#34; (Technion)</title>
+      <link>https://ww11632.github.io/posts/course-work-of-congnition-and-decision-makingtechnion/</link>
+      <pubDate>Sat, 12 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://ww11632.github.io/posts/course-work-of-congnition-and-decision-makingtechnion/</guid>
+      <description>Introduction The final project of this course focuses on the prediction of choice behavior in a space of choice tasks that extends the space considered by Erev et al. (2023). The participants in Erev et al.’s study did not receive a description of the keys, and had to base their decisions on the feedback provided after each choice. The current space includes similar tasks (but with only two keys), and also considers tasks in which part of the keys are described.</description>
+    </item>
+    
     <item>
       <title>Apply Hierarchical Risk Parity to Asset allocation</title>
       <link>https://ww11632.github.io/posts/assest-allocation/</link>
