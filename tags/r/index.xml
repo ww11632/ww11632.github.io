@@ -7,11 +7,11 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© Lichia</copyright>
-    <lastBuildDate>Fri, 14 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://ww11632.github.io/tags/r/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 15 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://ww11632.github.io/tags/r/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Via R Linear Modeling Shaq O&#39;Neal&#39;s scoring records</title>
       <link>https://ww11632.github.io/posts/modeling-shaq-oneals-scroing-record/</link>
-      <pubDate>Fri, 14 Jul 2023 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 15 Jul 2023 00:00:00 +0000</pubDate>
       
       <guid>https://ww11632.github.io/posts/modeling-shaq-oneals-scroing-record/</guid>
       <description>Introduction Define the phenomenon of interest. Build a generative model of the data that captures the impact of the phenomenon. Use (2) to build a statistical model. Incorporate prior knowledge into (3). Validate (3) with simulated data from(2). Use (3) to analyze real data and learn about the phenomenon. Evaluate and update the model. Link Link to the Dataset

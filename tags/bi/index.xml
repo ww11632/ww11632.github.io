@@ -7,11 +7,11 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© Lichia</copyright>
-    <lastBuildDate>Sat, 15 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://ww11632.github.io/tags/bi/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 01 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://ww11632.github.io/tags/bi/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Analytics dashboard for eCommerce store - Google Looker Studio</title>
       <link>https://ww11632.github.io/posts/google-looker-studio/</link>
-      <pubDate>Sat, 15 Jul 2023 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate>
       
       <guid>https://ww11632.github.io/posts/google-looker-studio/</guid>
       <description>Introduction Utilizing Google Looker Studio for the creation of daily web analytics, alongside a spreadsheet for data visualization and manipulation within the context of an eCommerce store. This setup also facilitates real-time data streaming capabilities. The data source is streaming from Google Analytics.

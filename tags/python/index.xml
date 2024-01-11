@@ -1,26 +1,17 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>python on Li Chias Blog of Data Wrangling</title>
+    <title>Python on Li Chias Blog of Data Wrangling</title>
     <link>https://ww11632.github.io/tags/python/</link>
-    <description>Recent content in python on Li Chias Blog of Data Wrangling</description>
+    <description>Recent content in Python on Li Chias Blog of Data Wrangling</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© Lichia</copyright>
-    <lastBuildDate>Sat, 12 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://ww11632.github.io/tags/python/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Final project of the course &#34;Cognition and Decision making&#34; (Technion)</title>
-      <link>https://ww11632.github.io/posts/course-work-of-congnition-and-decision-makingtechnion/</link>
-      <pubDate>Sat, 12 Aug 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://ww11632.github.io/posts/course-work-of-congnition-and-decision-makingtechnion/</guid>
-      <description>Introduction The final project of this course focuses on the prediction of choice behavior in a space of choice tasks that extends the space considered by Erev et al. (2023). The participants in Erev et al.’s study did not receive a description of the keys, and had to base their decisions on the feedback provided after each choice. The current space includes similar tasks (but with only two keys), and also considers tasks in which part of the keys are described.</description>
-    </item>
-    
+    <lastBuildDate>Tue, 15 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://ww11632.github.io/tags/python/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Apply Hierarchical Risk Parity to Asset allocation</title>
       <link>https://ww11632.github.io/posts/assest-allocation/</link>
-      <pubDate>Mon, 03 Apr 2023 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 15 Aug 2023 00:00:00 +0000</pubDate>
       
       <guid>https://ww11632.github.io/posts/assest-allocation/</guid>
       <description>Introduction When we utilize normal covariance to do asset allocation, the noise of the data will greatly affect the final allocation result, but Prof. Ledoit and Prof. Wolf found a simple method to solve this problem so that the result is more stable and will not be affected by the historical data noise.
@@ -28,15 +19,12 @@ Steps Download Historical Data from yfinance Set up environemnt Weight asset Bac
     </item>
     
     <item>
-      <title>Predictive models for bike-sharing services</title>
-      <link>https://ww11632.github.io/posts/a-model-that-can-forecast-the-bike-sharing-demand-and-analyze-the-influencing-factors/</link>
-      <pubDate>Fri, 31 Mar 2023 00:00:00 +0000</pubDate>
+      <title>Final project of the course &#34;Cognition and Decision making&#34; (Technion)</title>
+      <link>https://ww11632.github.io/posts/course-work-of-congnition-and-decision-makingtechnion/</link>
+      <pubDate>Wed, 14 Jun 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://ww11632.github.io/posts/a-model-that-can-forecast-the-bike-sharing-demand-and-analyze-the-influencing-factors/</guid>
-      <description>Introduction Preprocess and split the dataset in an appropriate way via Python such that we can evaluate our model properly.
-Explore the data through descriptive statistics and visualization and summarize findings about the data.
-Develop three different models and train them on the training set. Find a proper way to combine the prediction results of these models.
-Compare the models as well as the ensemble results using appropriate performance metrics.</description>
+      <guid>https://ww11632.github.io/posts/course-work-of-congnition-and-decision-makingtechnion/</guid>
+      <description>Introduction The final project of this course focuses on the prediction of choice behavior in a space of choice tasks that extends the space considered by Erev et al. (2023). The participants in Erev et al.’s study did not receive a description of the keys, and had to base their decisions on the feedback provided after each choice. The current space includes similar tasks (but with only two keys), and also considers tasks in which part of the keys are described.</description>
     </item>
     
     <item>
