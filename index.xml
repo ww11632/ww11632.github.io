@@ -31,6 +31,15 @@ Steps Download Historical Data from yfinance Set up environemnt Weight asset Bac
     </item>
     
     <item>
+      <title>Final project of the course &#34;Cognition and Decision making&#34; (Technion)</title>
+      <link>https://ww11632.github.io/posts/course-work-of-congnition-and-decision-makingtechnion/</link>
+      <pubDate>Sat, 12 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://ww11632.github.io/posts/course-work-of-congnition-and-decision-makingtechnion/</guid>
+      <description>Introduction The final project of this course focuses on the prediction of choice behavior in a space of choice tasks that extends the space considered by Erev et al. (2023). The participants in Erev et al.’s study did not receive a description of the keys, and had to base their decisions on the feedback provided after each choice. The current space includes similar tasks (but with only two keys), and also considers tasks in which part of the keys are described.</description>
+    </item>
+    
+    <item>
       <title>Via R Linear Modeling Shaq O&#39;Neal&#39;s scoring records</title>
       <link>https://ww11632.github.io/posts/modeling-shaq-oneals-scroing-record/</link>
       <pubDate>Sat, 15 Jul 2023 00:00:00 +0000</pubDate>
@@ -50,15 +59,6 @@ Note: Due to Colab&amp;rsquo;s environment run R language, please copy the code 
       <description>Introduction Utilizing Google Looker Studio for the creation of daily web analytics, alongside a spreadsheet for data visualization and manipulation within the context of an eCommerce store. This setup also facilitates real-time data streaming capabilities. The data source is streaming from Google Analytics.
 Link Link to the Dashboard
 Dashboard Figure 1. Dashboard Overview. Figure 2. Flow Analysis . Figure 3. Demographics Analysis . Figure 4. New/Old Client Analysis . Figure 5.</description>
-    </item>
-    
-    <item>
-      <title>Final project of the course &#34;Cognition and Decision making&#34; (Technion)</title>
-      <link>https://ww11632.github.io/posts/course-work-of-congnition-and-decision-makingtechnion/</link>
-      <pubDate>Wed, 14 Jun 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://ww11632.github.io/posts/course-work-of-congnition-and-decision-makingtechnion/</guid>
-      <description>Introduction The final project of this course focuses on the prediction of choice behavior in a space of choice tasks that extends the space considered by Erev et al. (2023). The participants in Erev et al.’s study did not receive a description of the keys, and had to base their decisions on the feedback provided after each choice. The current space includes similar tasks (but with only two keys), and also considers tasks in which part of the keys are described.</description>
     </item>
     
     <item>
