@@ -118,7 +118,7 @@ ABAnotb: The proportion of A choices after a trial in which the participant chos
 <code>Arate3</code>, <code>Arate4</code>, <code>AAAbest</code>, <code>AAAnotb</code>, <code>ABAbest</code>, <code>ABAnotb</code>).</p>
 <p>We&rsquo;ll ﬁrst need to handle the missing values in the dataset. Since they are relatively few, we can replace them with the median of the respective columns. For the model, we can use a Random Forest Regressor, which can handle complex non-linear</p>
 <p>relationships between the features and the target variables. We&rsquo;ll build a separate model for each of the eight statistics.</p>
-<p>Let&rsquo;s start with data preprocessing and then proceed to model building. We&rsquo;ll split the data into a training set (80%) and a validation set (20%) to evaluate the performance of our models.</p>
+<p>Then start with data preprocessing and then proceed to model building. We&rsquo;ll split the data into a training set (80%) and a validation set (20%) to evaluate the performance of our models.</p>
 <p>We have successfully trained a separate Random Forest model for each of the eight target variables. The performances of the models, measured by the root mean square error (RMSE) on the validation set, are as follows:</p>
 <ul>
 <li>&lsquo;Arate1&rsquo;: 0.1485</li>
@@ -132,7 +132,7 @@ ABAnotb: The proportion of A choices after a trial in which the participant chos
 </ul>
 <p>The RMSE values represent the average diﬀerence between the actual and predicted values in the validation set, so lower values indicate better performance.</p>
 <p>These results suggest that the models can reasonably predict the eight statistics based on the seven task parameters. However, the performance could potentially be improved with more complex models or additional features. For example, if individual-level data were available, we could create features based on the learning and feedback from each round to capture the cognitive factors.</p>
-<p>Here is a verbal description of the model:</p>
+<p>Verbal description of the model:</p>
 <p>A Random Forest model works by creating a large number of individual decision trees, each trained on a random subset of the data, and then combines their predictions to produce a ﬁnal prediction. Each decision tree in the forest makes a prediction independently, and the ﬁnal prediction of the Random Forest model is determined by averaging the predictions of all the trees.</p>
 <p>In this case, each Random Forest model was initialized with the following</p>
 <p>parameters:</p>
