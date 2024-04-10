@@ -9,7 +9,7 @@
     <copyright>© Lichia</copyright>
     <lastBuildDate>Wed, 20 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://ww11632.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Data Engineering project - Taiwan Stock Market Data Analysis - From Crawler, ETL to Dashboard</title>
+      <title>Taiwan Stock Market Data Analysis - From Crawling and ETL to API &amp; Dashboard Services&#34;</title>
       <link>https://ww11632.github.io/posts/data-eng-project/</link>
       <pubDate>Wed, 20 Sep 2023 00:00:00 +0000</pubDate>
       
@@ -21,7 +21,7 @@ Using Cloud service - Linode, to manage multiple distributed machines.</descript
     </item>
     
     <item>
-      <title>Apply Hierarchical Risk Parity to Asset allocation</title>
+      <title>Implementing Hierarchical Risk Parity for Asset Allocation Strategy&#34;</title>
       <link>https://ww11632.github.io/posts/assest-allocation/</link>
       <pubDate>Tue, 15 Aug 2023 00:00:00 +0000</pubDate>
       
@@ -42,7 +42,7 @@ Note: Due to Colab&amp;rsquo;s environment run R language, please copy the code 
     </item>
     
     <item>
-      <title>Final project of the course &#34;Cognition and Decision making&#34; (Technion)</title>
+      <title>Technion Course Final Project -  ML Model for Cognition and Decision-Making</title>
       <link>https://ww11632.github.io/posts/course-work-of-congnition-and-decision-makingtechnion/</link>
       <pubDate>Sat, 12 Aug 2023 00:00:00 +0000</pubDate>
       
@@ -51,7 +51,7 @@ Note: Due to Colab&amp;rsquo;s environment run R language, please copy the code 
     </item>
     
     <item>
-      <title>Analytics dashboard for eCommerce store - Google Looker Studio</title>
+      <title>eCommerce Store Analytics Dashboard Using Google Looker Studio</title>
       <link>https://ww11632.github.io/posts/google-looker-studio/</link>
       <pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate>
       
