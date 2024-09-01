@@ -2,17 +2,17 @@
 <html><head>
 	<meta charset="utf-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>Use the Black-Scholes model to simulate option pricing for backtesting - Li Chias Blog of Data Wrangling</title><meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="Use the Taiwan Weighted Index to construct a simulated option" />
+	<meta name="description" content="Use the Taiwan Weighted Index to construct a simulated option." />
 	<meta property="og:image" content=""/>
 	<meta property="og:title" content="Use the Black-Scholes model to simulate option pricing for backtesting" />
-<meta property="og:description" content="Use the Taiwan Weighted Index to construct a simulated option" />
+<meta property="og:description" content="Use the Taiwan Weighted Index to construct a simulated option." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://ww11632.github.io/posts/use-the-black-scholes-model-to-simulate-option-pricing-for-backtesting/" /><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2024-09-01T00:00:00+00:00" />
 <meta property="article:modified_time" content="2024-09-01T00:00:00+00:00" />
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Use the Black-Scholes model to simulate option pricing for backtesting"/>
-<meta name="twitter:description" content="Use the Taiwan Weighted Index to construct a simulated option"/>
+<meta name="twitter:description" content="Use the Taiwan Weighted Index to construct a simulated option."/>
 <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
 	<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@1,500&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap" rel="stylesheet">
@@ -89,12 +89,12 @@ if (!doNotTrack) {
 <blockquote>
 <p><a href="https://docs.google.com/spreadsheets/d/1XsCPz5Ads3Y4LO44aTba7hsRK_gUWok0/edit?usp=sharing&amp;ouid=109692476887611338311&amp;rtpof=true&amp;sd=true">TAIEX Index data example</a>.</p>
 </blockquote>
-<figure><img src="https://imgur.com/a/gBTOU5I"/>
+<figure><img src="https://i.imgur.com/gBTOU5I.png"/>
 </figure>
 
 <p>Using the earlier assumptions, we can simulate the above chart. The chart shows the weighted return index (blue, right axis) and the theoretical price of a 30% out-of-the-money call option (red, left axis). This allows us to observe the relationship between different volatilities and time. This model helps overcome issues with historical data, but it&rsquo;s important to remember the assumptions made here.</p>
 <p>We perform a backtest using a simple scenario: &ldquo;If the weighted return index rises above the 10-day moving average, enter a position by buying the option; conversely, if it falls below, close the option position.&rdquo;</p>
-<figure><img src="https://imgur.com/a/16B925R"/>
+<figure><img src="https://i.imgur.com/16B925R.png"/>
 </figure>
 
 <p>The chart above shows the point-based return performance of this simple example. It can be observed that the strategy&rsquo;s returns decline rapidly in the latter part. The main reason for this is that the weighted return index consolidates above the moving average, leading to reduced volatility, while the option approaches its expiration date, accelerating the decay of time value (Theta). This eventually causes the strategy&rsquo;s returns to be completely eroded. This is part of our process for reviewing the backtesting approach.</p>
